@@ -46,7 +46,7 @@ It is a safety net to insure we are receiving the correct form(s) of data.
 
 1. In 1-2 sentences, define end to end testing.
 
-End to end testing tests an entire user experience from end to end, focusing on UI and mimic how a user might interact with an app, simulating actual events like button clicks, scrolls, form submits, and ensuring all its pieces perform as expected and work in union.
+End to end testing tests an entire user experience from end to end, focusing on UI and mimic how a user might interact with an app, simulating actual events like button clicks, scrolls, form submits, and ensuring all its pieces and parts perform as expected and work in union.
 
 ## Instructions
 
