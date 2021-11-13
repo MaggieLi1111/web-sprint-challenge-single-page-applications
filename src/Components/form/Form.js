@@ -31,6 +31,7 @@ const Form = (props) => {
 
     const [values, setValues] = useState(initialValues);
     const [errors, setErrors] = useState(initialValues);
+    const [pizza, setPizza] = useState([]);
 
     const [placeOrder, setPlaceOrder] = useState(false);
 
@@ -63,6 +64,7 @@ const Form = (props) => {
         console.log(values);
         axios.post("https://reqres.in/api/users",values)
         .then(res => {
+            setPizza([...pizza,res.data])
             setValues(initialValues)
         })
         .catch( err => {
@@ -178,7 +180,7 @@ const Form = (props) => {
             </form> 
             }
 
-            {placeOrder &&  < Confirmation order={values} /> }
+            {placeOrder &&  < Confirmation pizza={pizza} /> }
         </>
     )
 }

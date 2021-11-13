@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 
 const Confirmation = props => {
 
-    const { order } = props;
+    const { pizza } = props;
 
     return (
         <div className="confirmation-container">           
         <h3>Review your pizza before on its way!</h3>
-        {order.map(item => {
+        {pizza.map(item => {
             return (
                 <div key={item.id}>
                     <h4>Name: {item.name}</h4>
