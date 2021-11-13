@@ -7,7 +7,6 @@ const Header = () => {
         <h1>LAMBDA EATS</h1>
         <p>Bon Appetit avec notre gourmandie!</p>
         <Nav />
-        <h1>Header</h1>
         </>
     )
 }
