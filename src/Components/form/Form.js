@@ -170,6 +170,7 @@ const Form = (props) => {
                     Extra cheese
                 </label>
 
+                <hr />
                 <label for="special">
                     Special Instructions <br/><br/>
                     <input type="textarea" name="special" id="special-text" value={special} placeholder="Anything else you'd like to add?" onChange={onChangeHandler} />
